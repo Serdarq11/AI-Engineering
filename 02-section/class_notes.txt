@@ -1,0 +1,20 @@
+structured vs unstructured data
+
+structured data: is organized into rows and columns
+
+unstructured data: text files, images, videos and audio files lacks a defined structured
+and cannot be organized into rows and columns. (%80 - %90)
+
+** AI turns unstructered data into valuable insights and analyze them.
+
+** AI can recognize patterns by examine pixels of an image, video etc. and then turns them into binary form.
+
+Collecting and Preparing Data for AI Modeling
+
+labeled data: recognizing something among lots of pictures, text, comments in order to know 
+what is something or what is not.
+
+unlabeled data: feeding AI with lots of data and provide it to recognize them by its own.
+
+metadata: is the data that describes other data (author, date created, usage, file size etc.)
+
