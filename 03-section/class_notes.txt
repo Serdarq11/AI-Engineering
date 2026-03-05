@@ -1,0 +1,20 @@
+machine learning: learns to recognize patterns in the training data
+
+3 types of ML:
+supervised learning: we know what the output should be
+classification: getting know about a picture by turning pixels to binary codes.
+prediction (regression): entering some value for home (2 rooms, 1 bathroom), it predicts the price
+
+unsupervized learning: no labeled data, we create the rules. Few types of groups of images (animals) 
+in the same dataset, it scan and group them.
+
+reinforcement learning: enhances recommendation systems (netflix)
+
+deep learning: 3 types of layers
+input layer: receives raw data
+hidden layers (intermediate layers): process input information. the more layers the more learning capacity,
+but needs to be managed carefully.
+output layer: final result
+
+
+
