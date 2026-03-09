@@ -1,0 +1,12 @@
+- Some website owners use API's (Application Programming Interfaces) to facilitate data extraction.
+
+client   <- API ->  server 
+- client sends a request and the server responds with the required data 
+
+*** some data that are requested with APIs are structured, but some of them are unstructured like
+images, texts, audios. For those unstructured data we use vector embeddings which are stored and organized in a
+vector database
+
+LangChain -> a library offering a collection of commonly used programming components and patterns
+tailored to help developers efficiently work with language models, simplifying complex tasks.
+
