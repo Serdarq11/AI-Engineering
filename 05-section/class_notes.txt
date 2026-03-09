@@ -1,0 +1,37 @@
+NLP -> A field of computer science that studies how computers understand, interpret, 
+and generate human language data.
+
+2 Types of Language Models
+Masked Language Models: can guess the missing word regardless of its position in a sentence
+Autoregressive Language Models (Open AI, ChatGPT): predict the next word
+
+They recognize some patterns and they predict words, sentences as they are digesting vast amounts of data and datasets.
+
+
+4 CORE LANGUAGE MODELING TECHNIQUES
+1. N-grams -> estimate a word's probability based on the preceding n - 1 words.
+2. Recurrent Neural Networks (RNN) -> retain information from prior steps.
+3. Long Short-Term Memory (LSTMs) -> gate architecture (choose which information to 'retain' and which to 'discard'). Forgets irrelevant data
+4. Tranformers
+
+Phases in Building LLMs: model design -> dataset engineering -> pretraining -> preliminary evaluation ->
+post-training -> finetuning -> final testing and evaluation
+
+
+
+                                    AI Optimization Techniques
+Prompt Engineering (Easy)
+Method: Explain to the model how to behave through instructions
+Characteristics: No model weight changes, uses verbal instructions only
+Outcome: Model doesn't change; it adapts through prompting
+
+RAG - Retrieval-Augmented Generation (Medium)
+Method: Expand context by attaching a library/database
+Characteristics: No model weight changes, adds external knowledge base
+Outcome: Model itself doesn't change; external data enhances responses
+
+Fine-Tuning (Hard)
+Method: Additional training for an already trained model
+Characteristics: Model weights change, uses extra training data
+Outcome: Model itself changes; can be computationally expensive
+
