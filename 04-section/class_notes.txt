@@ -1,0 +1,17 @@
+                                    COMPUTER VISION
+
+CNNs -> Convolutional Neural Networks -> great when working with high dimensional data. 
+                                        They are great at capturing spatial hierarchies in images.
+                                        benefit: Organizing the elements in an image based on importance and depth.
+
+GANs -> Generative Adverserial Networks -> Primarily create lifelike images.
+U-NET -> Efficiently scaling neural network dimensions and utilizing computational resources.
+
+Techniques to achieve GENERATIVE AI:
+- LLMs                              -> Chat GPT
+- Diffusion Models                  -> DALL-E 3, AI tools generating images and video
+- Generative Adverserial Networks   -> generating text and images
+- Neural Radience Fields            -> specialized AI for 3D modeling
+- Hybrid Models                     -> LLMs + GANs -> powerful content-generation system
+
+
