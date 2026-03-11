@@ -1,0 +1,54 @@
+ctrl + Enter                -> executing the code
+shift + Enter               -> new line will be open to write code (insert below)
+Alt + Enter                 -> run selected cell and insert below
+D + D                       -> deleting the cell
+A                           -> insert one cell above
+B                           -> insert one cell below
+Ctrl + Shift + upper arrow  -> moving above
+Ctrl + Shift + lower arrow  -> moving below
+
+OPERATION                       SHORTCUT
+
+Redo	                        Ctrl + Shift + Z
+Undo	                        Ctrl + Z
+Run Selected Cell	            Shift + Enter
+Find Next	                    Ctrl + G
+Find Previous	                Ctrl + Shift + G
+Find…	                        Ctrl + F
+Activate Next Tab	            Ctrl + Shift + ]
+Activate Next Tab Bar	        Ctrl + Shift + .
+Activate Previous Tab	        Ctrl + Shift + [
+Activate Previous Tab Bar	    Ctrl + Shift + ,
+Toggle Fullscreen Mode	        F11
+Toggle Left Area	            Ctrl + B
+Toggle Mode	                    Ctrl + Shift + D
+Toggle Right Area	            Ctrl + J
+Toggle Sidebar Widget	        Alt + 1
+Toggle Sidebar Widget	        Alt + 2
+Toggle Sidebar Widget	        Alt + 3
+Toggle Sidebar Widget	        Alt + 4
+Toggle Sidebar Widget	        Alt + 5
+Toggle Sidebar Widget	        Alt + 6
+Toggle Sidebar Widget	        Alt + 7
+Toggle Sidebar Widget	        Alt + 8
+Toggle Sidebar Widget	        Alt + 9
+Toggle Sidebar Widget	        Alt + 0
+Toggle Sidebar Widget	        Alt + Shift + 1
+Toggle Sidebar Widget	        Alt + Shift + 2
+Toggle Sidebar Widget	        Alt + Shift + 3
+Toggle Sidebar Widget	        Alt + Shift + 4
+Toggle Sidebar Widget	        Alt + Shift + 5
+Toggle Sidebar Widget	        Alt + Shift + 6
+Toggle Sidebar Widget	        Alt + Shift + 7
+Toggle Sidebar Widget	        Alt + Shift + 8
+Toggle Sidebar Widget	        Alt + Shift + 9
+Toggle Sidebar Widget	        Alt + Shift + 0
+Activate Command Palette	    Ctrl + Shift + C
+Show Keyboard Shortcuts…	    Ctrl + Shift + H
+Pause	                        F9
+Debugger Panel	                Ctrl + Shift + E
+Save Notebook	                Ctrl + S
+Save Notebook As…	            Ctrl + Shift + S
+Reopen Last	                    Ctrl + Shift + T
+Activate Previously Used Tab	Ctrl + Shift + '
+Table of Contents	            Ctrl + Shift + K

@@ -9,4 +9,7 @@ vector database
 
 LangChain -> a library offering a collection of commonly used programming components and patterns
 tailored to help developers efficiently work with language models, simplifying complex tasks.
+In addition, it enables the integration of foundation models into products. And offers the 
+flexibility to select and switch between various LLMs.
+
 
