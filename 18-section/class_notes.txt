@@ -1,0 +1,32 @@
+ITERATION
+
+even = [0,2,4,6,8,10,12,14,16,18,20]
+
+for n in even: 
+    print(n)
+
+2
+4
+6
+8
+10
+12
+14
+16
+18
+20
+
+for n in even: 
+    print(n, end=" ")
+
+2 4 6 8 10 12 14 16 18 20
+
+range(start, stop, step) -> creates a sequence of integers
+start                    -> first number in the list
+stop                     -> last number in the list
+step                     -> the last value + 1
+step                     -> the distance between each two consecutive values
+
+
+list(range(10))          -> [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+
