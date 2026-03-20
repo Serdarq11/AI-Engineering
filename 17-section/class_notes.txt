@@ -1,0 +1,3 @@
+.split(',')            -> makes a list
+.join()                -> makes a string
+dict['key1']           -> dict.get('key1)
