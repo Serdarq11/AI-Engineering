@@ -1,0 +1,8 @@
+                            functions vs methods
+function                                            method
+- can have very parameters                   - the object is one of its parameters
+- exists on its own                          - belongs to a certain class
+- function()                                 - object method()
+
+
+library = package
