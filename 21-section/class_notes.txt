@@ -1,0 +1,31 @@
+DATA PREPROCESSING
+1. GENERAL CLEANING
+    ORGANIZING
+    TIDYING UP THE TEXT
+    REMOVE ANYTHING THAT CAN THROW AN ERROR
+
+2. REMOVING NOISE FROM THE DATA SET
+    REMOVING ASPECTS IN THE DATA THAT ARE NOT ADDING ANY VALUE
+
+3. GETTING THE DATA IN THE RIGHT FORMAT FOR THE ML ALGORITHM
+Preprocessing our text data will take it from looking something like this to this.
+
+NLTK: the natural language toolkit for tokenization, stemming, lemmatization, and many other tasks 
+pandas: the python library for working with structured data 
+matplotlib: the python library for creating charts and visualizations
+
+
+tokenization: breaking text into smaller units(tokens)
+
+Lemmatization: reduces a word to a meaningful base form while preserving its meaning 
+lemmatization uses a predefined dictionary to keep the context of the word.
+
+lemmatization uses vocabulary and grammar rules to return valid base forms, 
+while stemming often produces crude roots
+
+N-grams help us analyze the relationship between neighboring words
+N-gram = a sequence of N tokens
+
+N=1: unigrams
+N=2: bigrams
+N=3: trigrams 9
