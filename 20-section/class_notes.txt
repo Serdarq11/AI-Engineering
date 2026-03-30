@@ -1,0 +1,8 @@
+NLP -> A field of AI that allows computers to understand, interpret and generate human language data
+
+supervised learning:
+training an algorithm to learn the relationship between the input and an output (both are provided)
+
+unsupervised learning:
+it groups or discovers patterns in data without predefined labels
+
