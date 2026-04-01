@@ -1,0 +1,27 @@
+Rule-Based Sentiment Analysis
+-uses a set of predefined rules that connects words to emotions or attitudes.
+- Rule based sentiment analysis cannot handle more subtle expressions, such as sarcasm or irony
+
+******TextBlob and VADER is used for rule based sentiment analysis as python packages*******
+
+- A lexicon: a collection of words paired with their predefined sentiment scores
+
+- because of their different lexicons, TextBlob and VADER may produce different results 
+when analyzing the same text 
+
+-it is good to test one more than one package on a sample of your text
+as different packages may give different results of positivity or negativity
+- comparing their outputs helps you decide which one works best for your case 
+
+
+-Rule based sentiment analysis is easy to understand but not always accurate
+
+
+
+-Transformers can capture how words influence and relate to each other 
+even when they far apart in a sentence 
+-Transformers can understand context 
+- pipeline() function: provides a quick way to use powerful pretrained models
+without needing to build them from scratch
+
+**to improve the results you can use a different pre-trained model 

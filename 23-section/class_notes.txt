@@ -1,0 +1,19 @@
+SENTIMENT ANALYSIS 
+
+positive sentiment
+-expression of liking something
+-enjoyment
+-positive emotion
+
+example: the music in the cafe made me feel really calm and relaxed.
+
+negative sentiment
+-expression of negative emotion
+
+example: the smell was really bad and it made me feel sick.
+
+
+neutral sentiment
+-sentence doesn't really appear to be positive or negative
+
+example: it was raining 
