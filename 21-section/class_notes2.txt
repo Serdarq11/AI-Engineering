@@ -1,0 +1,3 @@
+apply(): takes one column and performs a custom operation on every value in it.
+
+data['review_no_stopwords'] = data['review_lowercase'].apply(lambda x: ' '.join([word for word in x.split() if word not in (en_stopwords)]))
