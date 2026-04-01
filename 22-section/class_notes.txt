@@ -1,0 +1,19 @@
+Identifying Parts of Speech and Named Entities
+
+Spacy: An NLP library that comes with pretrained models capable of recognizing parts of speech,
+named entities, and other linguistic features
+
+POS: Parts of Speech Tagging
+labeling each word in a sentence with its grammatical rule -> noun, verb or adj
+
+A spacy document: an object that stores the text along with al the linguistic information spacy generates
+
+NER: Named Entity Recognition
+NER uses a combination of rules and machine learning to discover the entities 
+NER is a powerful tool for turning unstructured text into structured information 
+.label: a numeric ID of the entity
+.label_: human readable label 
+
+option 1: run NER on the raw text first
+option 2: try some preprocessing first
+
