@@ -25,3 +25,10 @@ even when they far apart in a sentence
 without needing to build them from scratch
 
 **to improve the results you can use a different pre-trained model 
+
+- in sentiment analysis, small words can be crucial, so we must not use lemmatization, stemming vs.
+
+- vader: a rule based sentiment analysis method
+
+- bins: the value ranges that define how the scores are divided.
+
