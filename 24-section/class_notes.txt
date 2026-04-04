@@ -1,0 +1,32 @@
+The Bag of Words Model: counts which words appear in which documents
+
+- from sklearn.feature_extraction.text import countVectorizer: transforms a collection of text documents 
+into a matrix of token counts. In other words:
+It breaks the text into words (tokens) and counts how often each word appears. This gives us 
+the numerical represantation we need to apply machine learning techniques to text data
+
+
+- countvec_fit = countvec.fit_transform(data) : .fit here looks through the text and learns which unique words appear in the data 
+_transform here converts the text into numbers and counts how often each word occurs.
+
+
+
+- bag_of_words = pd.DataFrame(countvec_fit.toarray(), columns = countvec.get_feature_names_out()):
+every row -> a document 
+every column -> a word from the vocabulary
+every entry -> a word count 
+get_feature_names_out(): returns the actual words in the vocabulary
+
+
+- The bag of words method only counts words 
+
+
+
+Term Frequency Inverse Document Frequency (TF IDF): keeps more of the context behind each word compared to bag of words 
+term frequency: how many times a word appears in a single document 
+inverse document frequency: how many times a word appears in the entire collection of documents
+
+-common words: lower score
+
+
+
