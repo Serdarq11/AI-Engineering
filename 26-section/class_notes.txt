@@ -1,0 +1,7 @@
+Logistic regression: a classification algorithm. Its goal is to predict categories(classes).
+
+Naive Bayes: a simple classification algorithm that works using probabilities
+
+SVM: Linear Support Vector Machine: finds the best possible boundary that seperates the classes.
+
+
