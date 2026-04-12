@@ -1,0 +1,5 @@
+Main features to LLM which make them unique
+1. The LLMs are larger models compared to other models
+2. General Purpose
+3. Ability to pre-trained and fine tuned
+
