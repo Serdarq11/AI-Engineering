@@ -1,0 +1,9 @@
+Deep Learning:
+type of model architecture that can excel at finding pattern 
+in complex data due to its complex structure.
+
+Creating the input embeddings:
+break down the input into tokens
+
+The transformer image is below.
+

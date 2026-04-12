@@ -1,0 +1,29 @@
+The Transformer processes input as a sequence of tokens and transforms them through several stacked stages.
+
+Input tokens — Raw text is split into subword tokens (e.g. via BPE). Each token becomes an integer ID.
+
+Token embedding — A learned lookup table converts each token ID into a dense vector (e.g. 512 or 768 dimensions). 
+This is where semantic meaning is initially encoded.
+
+Positional encoding — Because attention has no inherent sense of order, sinusoidal (or learned) 
+signals are added to the embeddings to tell the model where each token sits in the sequence.
+
+Multi-head self-attention — The heart of the Transformer. Each token computes a query, key, and value vector. 
+Attention scores are computed between all query–key pairs, then used to produce a weighted sum of values. 
+Running this in multiple "heads" in parallel lets the model attend to different aspects simultaneously 
+(syntax, coreference, semantics, etc.).
+
+Add & layer norm — After attention, the original input is added back (residual connection) to preserve gradient flow, 
+then layer normalization stabilizes the activations. This pattern repeats twice per block.
+
+Feed-forward network (FFN) — A two-layer MLP applied independently to each token position. 
+It expands the dimension (often 4×), applies a non-linearity like GELU, then projects back down. 
+This is where most of the model's parameter count lives and is thought to store factual knowledge.
+
+Second add & norm — Same residual + normalization step after the FFN.
+The encoder block (attention → norm → FFN → norm) stacks N times (e.g. 12 in BERT-base, 96 in GPT-4). 
+Each layer refines the representations.
+
+Linear + softmax — A final projection maps the last hidden state to the vocabulary size, 
+and softmax converts logits to probabilities over all possible next tokens.
+
